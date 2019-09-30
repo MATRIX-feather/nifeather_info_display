@@ -1,0 +1,2 @@
+bossbar set nife:p-h-max color yellow
+bossbar set nife:p-h-max name [{"color":"gold","bold":true,"text":""},{"score":{"objective":"nife_ID_P-H_max","name":"P-H_tot"}},{"text":" / "},{"text":""},{"score":{"objective":"nife_ID_P-H_max","name":"P-H_tot_max"}},{"text":" | ! : 注意"}]
