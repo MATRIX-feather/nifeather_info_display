@@ -9,5 +9,5 @@ scoreboard objectives add nife_health health
 scoreboard objectives add nife_stats dummy
 scoreboard players set 1s nife_stats 20
 
-tellraw @a [{"color":"dark_aqua","bold":"true","text":"Info Display"},{"color":"gray","bold":"true","text":" >> "},{"color":"green","bold":"true","text":"NiFeather Info Display已被加载"}]
+execute if score has_pm nife_stats matches 0 run tellraw @a [{"color":"dark_aqua","bold":"true","text":"Info Display"},{"color":"gray","bold":"true","text":" >> "},{"color":"green","bold":"true","text":"NiFeather Info Display已被加载"}]
 #tellraw @a [{"color":"dark_aqua","bold":"true","text":"Info Display"},{"color":"gray","bold":"true","text":" >> "},{"color":"gold","bold":"true","text":"版本 : alpha,master @ 0.0.0-20190927"}]

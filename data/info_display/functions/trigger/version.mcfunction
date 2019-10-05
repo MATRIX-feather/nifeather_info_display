@@ -1,0 +1,1 @@
+tellraw @a [{"color":"dark_aqua","bold":"true","text":"Info Display"},{"color":"gray","bold":"true","text":" >> "},{"color":"gold","bold":"true","text":"版本 : alpha,master @ 0.1.0-20191001"}]
